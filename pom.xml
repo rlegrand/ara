@@ -48,6 +48,8 @@
         <module>ara-database</module>
         <module>ara-server</module>
         <module>ara-final</module>
+        <module>ara-common-analyzer</module>
+        <module>ara-postman-analyzer</module>
     </modules>
 
     <dependencyManagement>
