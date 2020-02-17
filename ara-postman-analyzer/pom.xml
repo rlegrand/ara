@@ -1,0 +1,28 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.decathlon.ara</groupId>
+        <artifactId>ara-parent</artifactId>
+        <version>5.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ara-postman-analyzer</artifactId>
+    <packaging>jar</packaging>
+
+    <name>ARA Postman Analyzer</name>
+    <description>
+        Agile Regression Analyzer - Postman Analyzer:
+        The Postman test results analysers.
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.decathlon.ara</groupId>
+            <artifactId>ara-common-analyzer</artifactId>
+            <version>5.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
