@@ -22,7 +22,7 @@
       </i-col>
       <i-col :span="(24 - 4) / execution.qualitySeverities.length" v-for="qualitySeverity in execution.qualitySeverities" :key="qualitySeverity.severity.code">
         <nrt-progress
-          :data-nrt="'ExecutionsAndErrorsCartRowTeam_' + qualitySeverity.severity.code + '_' + run.country.code + '_' + run.type.code + '_' + team.name + '_' + execution.id "
+          :data-nrt=" $route.name + '_CartRowTeam_' + qualitySeverity.severity.code + '_' + run.country.code + '_' + run.type.code + '_' + team.name + '_' + execution.id "
           :execution="execution"
           :run="run"
           :counts="qualitiesPerTeamAndSeverity(team.id, qualitySeverity.severity.code)"
