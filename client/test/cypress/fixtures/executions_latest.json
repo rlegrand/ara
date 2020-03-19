@@ -1,5 +1,5 @@
 [{
-    "id": 48,
+    "id": 5,
     "branch": "develop",
     "name": "day",
     "release": "v3",
@@ -38,8 +38,8 @@
         },
         "scenarioCounts": {
           "total": 9,
-          "failed": 9,
-          "passed": 0
+          "failed": 0,
+          "passed": 9
         },
         "percent": 100,
         "status": "SUCCESS"
@@ -72,8 +72,8 @@
         },
         "scenarioCounts": {
           "total": 7,
-          "failed": 7,
-          "passed": 0
+          "failed": 0,
+          "passed": 7
         },
         "percent": 100,
         "status": "SUCCESS"
@@ -89,8 +89,8 @@
         },
         "scenarioCounts": {
           "total": 18,
-          "failed": 18,
-          "passed": 0
+          "failed": 0,
+          "passed": 18
         },
         "percent": 100,
         "status": "SUCCESS"
@@ -210,7 +210,7 @@
           "name": "France"
         },
         "type": {
-          "code": "firefox-desktop",
+          "code": "desktop",
           "name": "HMI Desktop",
           "source": {
             "code": "web",

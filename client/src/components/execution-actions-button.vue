@@ -67,7 +67,7 @@
               target="_blank">
             <DropdownItem 
                 :disabled="!run.jobUrl"
-                :data-nrt=" $route.name + '_ActionsAndJobReportsButton_' + countryDeployment.country.code + '_' + run.type.name + '_' + execution.id ">
+                :data-nrt=" $route.name + '_ActionsAndJobReportsButton_' + countryDeployment.country.code + '_' + run.type.code + '_' + execution.id ">
               <Icon type="md-open"/>
               {{run.country.code.toUpperCase()}} {{run.type.name}}
               <job-status-result :job="run" :showDuration="true"/>
