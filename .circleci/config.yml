@@ -41,7 +41,7 @@ workflows:
   version: 2
   build_and_may_promote:
     jobs:
-    - build_promote: # TAGS NOT RUN BY DEFAULT
+    - build_promote: 
         filters:
             tags:
               only: /.*/
